@@ -1,5 +1,12 @@
-.drinkHeader {
-    margin-top: 3rem;
+.product-container {
+    width: 70%;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 2.5rem 2rem 0;
 }
 
 .productCardContainer {
@@ -12,12 +19,14 @@
     overflow-x: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    border-radius: 3px;
 }
 
 .productCard {
     width: 18rem;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     cursor: pointer;
 }
 
@@ -29,4 +38,46 @@
     /* opacity: 0.6; */
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
     transform: translateY(-1px);
+}
+
+.specific-product-section {
+    display: flex;
+}
+
+.product-header {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: #fcb69f;
+    /* color: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
+}
+
+.food-container {
+    margin-bottom: 2rem;
+}
+
+.page-title {
+    /* color: white; */
+    /* background-color: transparent; */
+    /* opacity: 0.3; */
+    height: 6rem;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    ;
+    /* background-color: white; */
+    /* opacity: 0.3; */
+
+}
+
+.title {
+    color: #fcb69f;
 }

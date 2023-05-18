@@ -130,5 +130,71 @@
         "Image": "https://hips.hearstapps.com/hmg-prod/images/delish-fried-rice-020-1543875572.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
         "Description": "It's quite amazing.",
         "Expiration": "2024-05-27T23:00:00Z"
+    },
+    {
+        "Name": "Caesar Salad",
+        "Type": "Food",
+        "Category": [
+            "Cold",
+            "Salad"
+        ],
+        "Image": "https://www.foodandwine.com/thmb/df0xQFraDimtpDf1kQoUJzTAIl4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Classic-Caesar-Salad-FT-RECIPE0223-a2dc1f3632224a70a7d71c67d1f64876.jpg",
+        "Description": "It's quite healthy.",
+        "Expiration": "2024-07-23T23:00:00Z"
+    },
+    {
+        "Name": "Cheesecake",
+        "Type": "Food",
+        "Category": [
+            "Cold",
+            "Sweet"
+        ],
+        "Image": "https://sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4-500x500.jpg",
+        "Description": "You can eat 5 in one sitting.",
+        "Expiration": "2023-02-15T23:00:00Z"
+    },
+    {
+        "Name": "Chocolate Ice Cream",
+        "Type": "Food",
+        "Category": [
+            "Cold",
+            "Sweet"
+        ],
+        "Image": "https://www.seriouseats.com/thmb/psLdr3356yqqFcm1o1_zxQ4YxEY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/best-dark-chocolate-ice-cream-recipe-hero-446dacb9d3ce443e8e9880dbd095ef4c.jpg",
+        "Description": "I can have a gallon on my own.",
+        "Expiration": "2024-05-27T23:00:00Z"
+    },
+    {
+        "Name": "Margarita",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Alcoholic"
+        ],
+        "Image": "https://www.thespruceeats.com/thmb/dYXTOgLXo9A9y60eLCSAsLjhbdc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-fresh-margarita-cocktail-recipe-759317-HERO-3cf566b4a4084aedb904cf18ad3c6c35.jpg",
+        "Description": "Lets get the party started.",
+        "Expiration": "2025-01-27T23:00:00Z"
+    },
+    {
+        "Name": "Chocolate Milk",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Dairy"
+        ],
+        "Image": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-11-Chocolate-Milk%2FChocolate_Milk_8",
+        "Description": "Best way to start your morning.",
+        "Expiration": "2025-12-27T23:00:00Z"
+    },
+    {
+        "Name": "Green Tea",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Caffeine"
+        ],
+        "Image": "https://cdn.shopify.com/s/files/1/0044/0267/5761/articles/green-iced-tea_1000x1000.jpg?v=1623361458",
+        "Description": "This will really wake you up.",
+        "Expiration": "2025-09-14T23:00:00Z"
     }
 ]
