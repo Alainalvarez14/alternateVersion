@@ -24,3 +24,9 @@
 .productImage {
     height: 20rem;
 }
+
+.productCard:hover {
+    /* opacity: 0.6; */
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-1px);
+}

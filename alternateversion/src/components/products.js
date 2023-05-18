@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import JSONData from './data.json'
 import './products.css'
 
@@ -25,7 +25,7 @@ const Products = () => {
                 <div className="productCardContainer">
                     {foodArray.map(food => {
                         return <div>
-                            <div class="card productCard">
+                            <div class="card productCard" style={{ opacity: new Date(food.Expiration) < new Date() ? '0.4' : '' }}>
                                 <img src={`${food.Image}`} class="card-img-top productImage" alt="..." />
                                 <div class="card-body">
                                     <h5 class="card-title">{food.Name}</h5>
@@ -43,28 +43,23 @@ const Products = () => {
             {drinkArray.length && (
                 <div className="productCardContainer">
                     {drinkArray.map(drink => {
-                        return <div class="card productCard">
-                            <img src={`${drink.Image}`} class="card-img-top productImage" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">{drink.Name}</h5>
-                                <p class="card-text">{drink.Category}</p>
-                                <p class="card-text">{drink.Description}</p>
-                                <p class="card-text">{convertDate(drink)}</p>
+                        return <div>
+                            <div class="card productCard" style={{ opacity: new Date(drink.Expiration) < new Date() ? '0.4' : '' }}>
+                                <img src={`${drink.Image}`} class="card-img-top productImage" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title">{drink.Name}</h5>
+                                    <p class="card-text">{drink.Category}</p>
+                                    <p class="card-text">{drink.Description}</p>
+                                    <p class="card-text">{convertDate(drink)}</p>
+                                </div>
                             </div>
                         </div>
                     })}
                 </div>
-            )
-            }
+            )}
 
-        </div >
+        </div>
     )
 }
 
 export default Products;
-
-
-//load jsonData
-// map through all products in JsonData and check if they are food or drink
-// if Food, display in food column (or row if you want make an accordion one on top of the other)
-// if Drink, display in drink column (or row if you want make an accordion one on top of the other)

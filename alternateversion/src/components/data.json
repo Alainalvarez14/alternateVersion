@@ -33,36 +33,102 @@
         "Expiration": "2023-03-23T23:00:00Z"
     },
     {
-        "Name": "Cold Potato",
+        "Name": "Spaghetti and meatballs",
         "Type": "Food",
         "Category": [
-            "Cold",
-            "Potato"
+            "Hot",
+            "Pasta"
         ],
-        "Image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/6/8/0/EA1E11_cold-fashioned-potato-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371597729765.jpeg",
-        "Description": "It’s quite cold.",
-        "Expiration": "2023-03-23T23:00:00Z"
+        "Image": "https://hips.hearstapps.com/delish/assets/17/39/1506456062-delish-spaghetti-meatballs.jpg",
+        "Description": "It’s quite saucy.",
+        "Expiration": "2023-03-27T23:00:00Z"
     },
     {
-        "Name": "Cold Potato",
+        "Name": "Mexican Chop Chop",
         "Type": "Food",
         "Category": [
-            "Cold",
-            "Potato"
+            "Hot",
+            "Grain"
         ],
-        "Image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/6/8/0/EA1E11_cold-fashioned-potato-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371597729765.jpeg",
-        "Description": "It’s quite cold.",
-        "Expiration": "2023-03-23T23:00:00Z"
+        "Image": "https://olo-images-live.imgix.net/37/37723dfe8918412799b1caa03a542d91.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=528&h=352&fit=fill&fm=png32&bg=transparent&s=1cd26b788d2320f8e705634d88ce8f3e",
+        "Description": "It's quite tasty.",
+        "Expiration": "2024-05-27T23:00:00Z"
     },
     {
-        "Name": "Cold Potato",
+        "Name": "Spicy Tuna Roll",
         "Type": "Food",
         "Category": [
             "Cold",
-            "Potato"
+            "Sushi"
         ],
-        "Image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/6/8/0/EA1E11_cold-fashioned-potato-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371597729765.jpeg",
-        "Description": "It’s quite cold.",
-        "Expiration": "2023-03-23T23:00:00Z"
+        "Image": "https://www.thespruceeats.com/thmb/7yMQzK9G7ogWdf4D0iAiukS52Vo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spicy-tuna-roll-2031509-hero-02-4c1809d4a2f74ea49013ee081a79543b.jpg",
+        "Description": "It’s very spicy.",
+        "Expiration": "2025-04-29T23:00:00Z"
+    },
+    {
+        "Name": "Orange Juice",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Fruit"
+        ],
+        "Image": "https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg",
+        "Description": "It’s very sweet.",
+        "Expiration": "2023-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Coca Cola",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Soda"
+        ],
+        "Image": "https://images.pexels.com/photos/12960150/pexels-photo-12960150.jpeg?cs=srgb&dl=pexels-valeriia-harbuz-12960150.jpg&fm=jpg",
+        "Description": "It’s very bubbly.",
+        "Expiration": "2023-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Apple Juice",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Fruit"
+        ],
+        "Image": "https://media.istockphoto.com/id/173828042/photo/glass-of-apple-juice-with-apples.jpg?s=612x612&w=0&k=20&c=zjJP0MDczWJvgnKF_vrp_V5VX1pOFIbYKH5wKpJXvqg=",
+        "Description": "It’s very sweet.",
+        "Expiration": "2024-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Sprite",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Soda"
+        ],
+        "Image": "https://thumbs.dreamstime.com/b/soft-drink-sprite-moscow-russia-april-can-coca-cola-company-ice-was-introduced-united-states-was-coke-s-63824270.jpg",
+        "Description": "It’s very gaseous.",
+        "Expiration": "2024-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Sunkist",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Soda"
+        ],
+        "Image": "https://target.scene7.com/is/image/Target/GUEST_b6c54a29-1d46-425b-acbc-714fc0f908ab?wid=488&hei=488&fmt=pjpeg",
+        "Description": "It’s very citrusy.",
+        "Expiration": "2023-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Fried Rice",
+        "Type": "Food",
+        "Category": [
+            "Hot",
+            "Grain"
+        ],
+        "Image": "https://hips.hearstapps.com/hmg-prod/images/delish-fried-rice-020-1543875572.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
+        "Description": "It's quite amazing.",
+        "Expiration": "2024-05-27T23:00:00Z"
     }
 ]
