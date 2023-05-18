@@ -5,7 +5,6 @@ import Products from './components/products';
 function App() {
   return (
     <div className='App'>
-      this is my react app.
       <Products />
     </div>
   );

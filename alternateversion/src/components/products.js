@@ -1,5 +1,6 @@
 import React from "react";
 import JSONData from './data.json'
+import './products.css'
 
 const Products = () => {
 
@@ -17,29 +18,33 @@ const Products = () => {
     }
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
+        <div>
 
+            <div class="display-5">Food:</div>
             {foodArray.length && (
-                <div> Food:
+                <div className="productCardContainer">
                     {foodArray.map(food => {
-                        return <div class="card" style={{ width: '18rem', marginTop: '1rem' }}>
-                            <img src={`${food.Image}`} class="card-img-top" alt="..." style={{ height: '20rem' }} />
-                            <div class="card-body">
-                                <h5 class="card-title">{food.Name}</h5>
-                                <p class="card-text">{food.Category}</p>
-                                <p class="card-text">{food.Description}</p>
-                                <p class="card-text">{convertDate(food)}</p>
+                        return <div>
+                            <div class="card productCard">
+                                <img src={`${food.Image}`} class="card-img-top productImage" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title">{food.Name}</h5>
+                                    <p class="card-text">{food.Category}</p>
+                                    <p class="card-text">{food.Description}</p>
+                                    <p class="card-text">{convertDate(food)}</p>
+                                </div>
                             </div>
                         </div>
                     })}
                 </div>
             )}
 
+            <div class="display-5 drinkHeader">Drink:</div>
             {drinkArray.length && (
-                <div>Drink:
+                <div className="productCardContainer">
                     {drinkArray.map(drink => {
-                        return <div class="card" style={{ width: '18rem', marginTop: '1rem' }}>
-                            <img src={`${drink.Image}`} class="card-img-top" alt="..." style={{ height: '20rem' }} />
+                        return <div class="card productCard">
+                            <img src={`${drink.Image}`} class="card-img-top productImage" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">{drink.Name}</h5>
                                 <p class="card-text">{drink.Category}</p>
@@ -49,9 +54,10 @@ const Products = () => {
                         </div>
                     })}
                 </div>
-            )}
+            )
+            }
 
-        </div>
+        </div >
     )
 }
 
