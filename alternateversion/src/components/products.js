@@ -50,7 +50,7 @@ const Products = () => {
                         <div className="productCardContainer">
                             {foodArray.map(food => {
                                 return <div>
-                                    <div class="card productCard" style={{ opacity: new Date(food.Expiration) < new Date() ? '0.4' : '', pointerEvents: new Date(food.Expiration) < new Date() ? 'none' : 'cursor' }}>
+                                    <div class={`card productCard ${new Date(food.Expiration) < new Date() ? 'disabled' : ''}`}>
                                         <img src={`${food.Image}`} class="card-img-top productImage" alt="..." />
                                         <div class="card-body">
                                             <h4 class="card-title">{food.Name}</h4>
