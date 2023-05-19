@@ -47,11 +47,11 @@ const Products = () => {
                 <div class="specific-product-section food-container">
                     <h1 class="product-header">FOOD</h1>
                     {foodArray.length && (
-                        <div className="productCardContainer">
+                        <div className="product-card-container">
                             {foodArray.map(food => {
                                 return <div>
-                                    <div class={`card productCard ${new Date(food.Expiration) < new Date() ? 'disabled' : ''}`}>
-                                        <img src={`${food.Image}`} class="card-img-top productImage" alt="..." />
+                                    <div class={`card product-card ${new Date(food.Expiration) < new Date() ? 'disabled' : ''}`}>
+                                        <img src={`${food.Image}`} class="card-img-top product-image" alt="..." />
                                         <div class="card-body">
                                             <h4 class="card-title">{food.Name}</h4>
                                             <p class="card-text"><strong>Category: </strong>{Object.values(food.Category).join(', ')}</p>
@@ -67,11 +67,11 @@ const Products = () => {
                 <div class="specific-product-section">
                     <h1 class="product-header">DRINKS</h1>
                     {drinkArray.length && (
-                        <div className="productCardContainer">
+                        <div className="product-card-container">
                             {drinkArray.map(drink => {
                                 return <div>
-                                    <div class="card productCard" style={{ opacity: new Date(drink.Expiration) < new Date() ? '0.4' : '', pointerEvents: new Date(drink.Expiration) < new Date() ? 'none' : 'cursor' }}>
-                                        <img src={`${drink.Image}`} class="card-img-top productImage" alt="..." />
+                                    <div class={`card product-card ${new Date(drink.Expiration) < new Date() ? 'disabled' : ''}`}>
+                                        <img src={`${drink.Image}`} class="card-img-top product-image" alt="..." />
                                         <div class="card-body">
                                             <h4 class="card-title">{drink.Name}</h4>
                                             <p class="card-text"><strong>Category: </strong>{Object.values(drink.Category).join(', ')}</p>
@@ -84,7 +84,6 @@ const Products = () => {
                         </div>
                     )}
                 </div>
-
             </div >
         </div>
     )

@@ -14,7 +14,7 @@
     padding: 2rem 2.5rem 2rem 0;
 }
 
-.productCardContainer {
+.product-card-container {
     display: flex;
     flex-direction: row;
     border: 1.2px solid lightgrey;
@@ -26,18 +26,18 @@
     border-radius: 3px;
 }
 
-.productCard {
+.product-card {
     width: 18rem;
     margin-left: 1rem;
     margin-right: 1rem;
     cursor: pointer;
 }
 
-.productImage {
+.product-image {
     height: 15rem;
 }
 
-.productCard:hover {
+.product-card:hover {
     box-shadow: 0px 10px 20px 5px rgba(137, 137, 137, 0.5);
     transform: translateY(-1px);
 }
