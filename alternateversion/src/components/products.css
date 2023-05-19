@@ -12,9 +12,8 @@
 .productCardContainer {
     display: flex;
     flex-direction: row;
-    border: 1.6px solid grey;
+    border: 1.2px solid lightgrey;
     max-width: 90%;
-    margin-left: auto;
     margin-right: auto;
     overflow-x: auto;
     padding-top: 1rem;
@@ -31,12 +30,11 @@
 }
 
 .productImage {
-    height: 20rem;
+    height: 15rem;
 }
 
 .productCard:hover {
-    /* opacity: 0.6; */
-    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 20px 5px rgba(137, 137, 137, 0.5);
     transform: translateY(-1px);
 }
 
@@ -48,7 +46,6 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     color: #fcb69f;
-    /* color: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
 }
 
 .food-container {
@@ -56,9 +53,6 @@
 }
 
 .page-title {
-    /* color: white; */
-    /* background-color: transparent; */
-    /* opacity: 0.3; */
     height: 6rem;
     width: 70%;
     margin-right: auto;
@@ -72,12 +66,23 @@
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.5);
-    ;
-    /* background-color: white; */
-    /* opacity: 0.3; */
-
 }
 
 .title {
     color: #fcb69f;
+}
+
+.expired-toggle {
+    color: gray;
+    padding-bottom: 0.5rem;
+}
+
+.form-check-input:checked {
+    border-color: #fcb69f !important;
+    background-color: #fcb69f !important;
+}
+
+.form-check-input:focus {
+    border-color: white !important;
+    box-shadow: 0 0 0 0.25rem rgba(252, 182, 159, 0.25) !important;
 }
