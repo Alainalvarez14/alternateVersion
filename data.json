@@ -1,0 +1,200 @@
+[
+    {
+        "Name": "Juicy Juice",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Fruit"
+        ],
+        "Image": "https://www.acouplecooks.com/wp-content/uploads/2021/06/Green-Juice-Recipe-008.jpg",
+        "Description": "It’s quite juicy.",
+        "Expiration": "2025-06-23T23:00:00Z"
+    },
+    {
+        "Name": "Hot Potato",
+        "Type": "Food",
+        "Category": [
+            "Hot",
+            "Potato"
+        ],
+        "Image": "https://soundscapingsource.com/wp-content/uploads/hot-potato.jpg",
+        "Description": "It’s quite hot.",
+        "Expiration": "2025-06-23T23:00:00Z"
+    },
+    {
+        "Name": "Cold Potato",
+        "Type": "Food",
+        "Category": [
+            "Cold",
+            "Potato"
+        ],
+        "Image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/6/8/0/EA1E11_cold-fashioned-potato-salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371597729765.jpeg",
+        "Description": "It’s quite cold.",
+        "Expiration": "2023-03-23T23:00:00Z"
+    },
+    {
+        "Name": "Spaghetti",
+        "Type": "Food",
+        "Category": [
+            "Hot",
+            "Pasta"
+        ],
+        "Image": "https://hips.hearstapps.com/delish/assets/17/39/1506456062-delish-spaghetti-meatballs.jpg",
+        "Description": "It’s quite saucy.",
+        "Expiration": "2023-03-27T23:00:00Z"
+    },
+    {
+        "Name": "Mexican Chop Chop",
+        "Type": "Food",
+        "Category": [
+            "Hot",
+            "Grain"
+        ],
+        "Image": "https://olo-images-live.imgix.net/37/37723dfe8918412799b1caa03a542d91.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=528&h=352&fit=fill&fm=png32&bg=transparent&s=1cd26b788d2320f8e705634d88ce8f3e",
+        "Description": "It's quite tasty.",
+        "Expiration": "2024-05-27T23:00:00Z"
+    },
+    {
+        "Name": "Spicy Tuna Roll",
+        "Type": "Food",
+        "Category": [
+            "Cold",
+            "Sushi"
+        ],
+        "Image": "https://www.thespruceeats.com/thmb/7yMQzK9G7ogWdf4D0iAiukS52Vo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spicy-tuna-roll-2031509-hero-02-4c1809d4a2f74ea49013ee081a79543b.jpg",
+        "Description": "It’s very spicy.",
+        "Expiration": "2025-04-29T23:00:00Z"
+    },
+    {
+        "Name": "Orange Juice",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Fruit"
+        ],
+        "Image": "https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg",
+        "Description": "It’s very sweet.",
+        "Expiration": "2023-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Coca Cola",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Soda"
+        ],
+        "Image": "https://images.pexels.com/photos/12960150/pexels-photo-12960150.jpeg?cs=srgb&dl=pexels-valeriia-harbuz-12960150.jpg&fm=jpg",
+        "Description": "It’s very bubbly.",
+        "Expiration": "2023-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Apple Juice",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Fruit"
+        ],
+        "Image": "https://media.istockphoto.com/id/173828042/photo/glass-of-apple-juice-with-apples.jpg?s=612x612&w=0&k=20&c=zjJP0MDczWJvgnKF_vrp_V5VX1pOFIbYKH5wKpJXvqg=",
+        "Description": "It’s very sweet.",
+        "Expiration": "2024-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Sprite",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Soda"
+        ],
+        "Image": "https://thumbs.dreamstime.com/b/soft-drink-sprite-moscow-russia-april-can-coca-cola-company-ice-was-introduced-united-states-was-coke-s-63824270.jpg",
+        "Description": "It’s very gaseous.",
+        "Expiration": "2024-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Sunkist",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Soda"
+        ],
+        "Image": "https://target.scene7.com/is/image/Target/GUEST_b6c54a29-1d46-425b-acbc-714fc0f908ab?wid=488&hei=488&fmt=pjpeg",
+        "Description": "It’s very citrusy.",
+        "Expiration": "2023-02-27T23:00:00Z"
+    },
+    {
+        "Name": "Fried Rice",
+        "Type": "Food",
+        "Category": [
+            "Hot",
+            "Grain"
+        ],
+        "Image": "https://hips.hearstapps.com/hmg-prod/images/delish-fried-rice-020-1543875572.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
+        "Description": "It's quite amazing.",
+        "Expiration": "2024-05-27T23:00:00Z"
+    },
+    {
+        "Name": "Caesar Salad",
+        "Type": "Food",
+        "Category": [
+            "Cold",
+            "Salad"
+        ],
+        "Image": "https://www.foodandwine.com/thmb/df0xQFraDimtpDf1kQoUJzTAIl4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Classic-Caesar-Salad-FT-RECIPE0223-a2dc1f3632224a70a7d71c67d1f64876.jpg",
+        "Description": "It's quite healthy.",
+        "Expiration": "2024-07-23T23:00:00Z"
+    },
+    {
+        "Name": "Cheesecake",
+        "Type": "Food",
+        "Category": [
+            "Cold",
+            "Sweet"
+        ],
+        "Image": "https://sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4-500x500.jpg",
+        "Description": "Very cheesy cake.",
+        "Expiration": "2023-02-15T23:00:00Z"
+    },
+    {
+        "Name": "Chocolate Ice Cream",
+        "Type": "Food",
+        "Category": [
+            "Cold",
+            "Sweet"
+        ],
+        "Image": "https://www.seriouseats.com/thmb/psLdr3356yqqFcm1o1_zxQ4YxEY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/best-dark-chocolate-ice-cream-recipe-hero-446dacb9d3ce443e8e9880dbd095ef4c.jpg",
+        "Description": "Cold to the touch.",
+        "Expiration": "2024-05-27T23:00:00Z"
+    },
+    {
+        "Name": "Margarita",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Alcoholic"
+        ],
+        "Image": "https://www.thespruceeats.com/thmb/dYXTOgLXo9A9y60eLCSAsLjhbdc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-fresh-margarita-cocktail-recipe-759317-HERO-3cf566b4a4084aedb904cf18ad3c6c35.jpg",
+        "Description": "Starts the party",
+        "Expiration": "2025-01-27T23:00:00Z"
+    },
+    {
+        "Name": "Chocolate Milk",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Dairy"
+        ],
+        "Image": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-11-Chocolate-Milk%2FChocolate_Milk_8",
+        "Description": "chocolaty drink",
+        "Expiration": "2025-12-27T23:00:00Z"
+    },
+    {
+        "Name": "Green Tea",
+        "Type": "Drink",
+        "Category": [
+            "Cold",
+            "Caffeine"
+        ],
+        "Image": "https://cdn.shopify.com/s/files/1/0044/0267/5761/articles/green-iced-tea_1000x1000.jpg?v=1623361458",
+        "Description": "Refreshing drink",
+        "Expiration": "2025-09-14T23:00:00Z"
+    }
+]
